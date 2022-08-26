@@ -1,0 +1,25 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red22\green107\blue41;\red255\green255\blue254;\red0\green0\blue0;
+\red0\green0\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c7451\c48627\c21176;\cssrgb\c100000\c100000\c99608;\cssrgb\c0\c0\c0;
+\cssrgb\c0\c0\c100000;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs30 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 /**\cf0 \cb1 \strokec4 \
+\cf2 \cb3 \strokec2 *\'a0\'a0\'a0Return\'a0the\'a0second\'a0largest\'a0number\'a0in\'a0the\'a0array.\cf0 \cb1 \strokec4 \
+\cf2 \cb3 \strokec2 *\'a0\'a0\'a0@param\'a0\{Number[]\}\'a0nums\'a0-\'a0An\'a0array\'a0of\'a0numbers.\cf0 \cb1 \strokec4 \
+\cf2 \cb3 \strokec2 *\'a0\'a0\'a0@return\'a0\{Number\}\'a0The\'a0second\'a0largest\'a0number\'a0in\'a0the\'a0array.\cf0 \cb1 \strokec4 \
+\cf2 \cb3 \strokec2 **/\cf0 \cb1 \strokec4 \
+\cf5 \cb3 \strokec5 function\cf0 \strokec4 \'a0getSecondLargest(nums)\'a0\{\cb1 \
+\cb3 \'a0\'a0\'a0\'a0\cf2 \strokec2 //\'a0Complete\'a0the\'a0function\cf0 \cb1 \strokec4 \
+\cb3 \'a0\'a0\'a0\'a0nums.sort(\cf5 \strokec5 function\cf0 \strokec4 (a,\'a0b)\'a0\{\cb1 \
+\cb3 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf5 \strokec5 return\cf0 \strokec4 \'a0a\'a0-\'a0b;\cb1 \
+\cb3 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\});\cb1 \
+\cb3 \'a0\'a0\'a0\'a0nums\'a0=\'a0nums.filter((item,\'a0index)\'a0=>\'a0nums.indexOf(item)\'a0===\'a0index);\cb1 \
+\cb3 \'a0\'a0\'a0\'a0\cf5 \strokec5 return\cf0 \strokec4 \'a0nums[nums.length-\cf2 \strokec2 2\cf0 \strokec4 ];\cb1 \
+\cb3 \}\cb1 \
+}
